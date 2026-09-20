@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNGcafeトップページ</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <header>
+    <h1>TNG CAFE</h1>
+    <p><em>心安らぐ一杯をあなたに</em></P>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#section1">About Us</a></li>
+      <li><a href="#section2">Menu</a></li>
+      <li><a href="#section3">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="section1">
+      <h2>About Us</h2>
+      <p>
+        TNGCafeは自然の香りに包まれたリラックス空間を提供しています。<br>
+        自家焙煎コーヒーと手作りスイーツで、穏やかな時間をお過ごしください。
+      </p><br>
+      <img src="sample.jpg" alt="カフェの写真">
+    </section>
+
+    <section id="section2" class="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li>
+          <img src="sample.jpg" alt="コーヒー">
+          <p>ブレンドコーヒー</p>
+        </li>
+        <li>
+          <img src="sample.jpg" alt="ケーキ">
+          <p>ベイクドチーズケーキ</p>
+        </li>
+        <li>
+          <img src="sample.jpg" alt="ラテ">
+          <p>カフェラテ</p>
+        </li>
+      </ul>
+    </section>
+    
+    <section id="section3">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <div class="contact">
+          <label for="name">名前：</label>
+          <input type="text" id="name" name="name">
+          <label for="email">メールアドレス：</label>
+          <input type="email" id="email" name="email">
+          <label for="message">お問い合わせ内容：</label>
+          <textarea id="message" name="message" rows="4"cols="40"></textarea>
+          <button type="submit">送信</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 HTML Training Page. All rights reserved.</p>
+  </footer>
+</body>
+
