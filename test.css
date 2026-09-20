@@ -4,48 +4,38 @@ body {
     background-color: #faf8f5;
     color:#333;
     line-height:1.6;
-    margin:0 auto;
+    margin:0;
     padding:0;
     text-align: center;
 }
 /* ヘッダーの設定 */
 header {
-    text-align: center;
     background-color: #4CAF50;
     color: #ffffff;
-    overflow: hidden;
     margin: 0;
-    padding: 0px 0px;
 }
 /* ナビゲーションの設定*/
 nav {
-    text-align: center;
     background-color: #4CAF50;
     padding: 10px 15px;
     margin: 0;
 }
 nav ul {
     list-style: none;
-    text-align: center;
     font-weight: bold;
     padding: 0;
     margin: 0;
 }
 nav li {
-    color: #ffffff;
-    text-align: center;
     display: inline-block;
     padding: 0px 10px;
     margin: 0;
 }  
 nav a:hover {
     color: #333;
-    font-weight: bold;
-    padding: 0px 0px;
 }
 /*セクションごとの設定*/
 section h2 {
-    max-width: 100%;
     text-decoration: underline;
     padding-bottom: 5px;
     margin-top: 30px;
@@ -102,8 +92,7 @@ form {
 }
 input[type="text"],
 input[type="email"],
-textarea,
-select{
+textarea{
     display: inline-block;
     width: 100%;
     padding: 10px;
@@ -131,7 +120,6 @@ button:hover {
 footer {
     background-color: #245326;
     color: white;
-    text-align: center;
     padding: 10px;
     margin-top: 20px;
 }  
