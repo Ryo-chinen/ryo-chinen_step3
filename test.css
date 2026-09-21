@@ -13,6 +13,14 @@ header {
     background-color: #4CAF50;
     color: #ffffff;
     margin: 0;
+    overflow: hidden;
+}
+header h1{
+    text-align: center;
+}
+
+header p{
+    text-align: center;
 }
 /* ナビゲーションの設定*/
 nav {
@@ -30,7 +38,10 @@ nav li {
     display: inline-block;
     padding: 0px 10px;
     margin: 0;
-}  
+}
+nav a{
+    color:#fff;
+}
 nav a:hover {
     color: #333;
 }
@@ -51,9 +62,7 @@ img {
 
 /*メニュー欄のカード風設定部分*/
 /*カード大枠*/
-a{
-    color:#fff
-}
+
 .menu ul{
     margin: auto;
     max-width: 80%;
@@ -81,7 +90,7 @@ a{
 
 form {
     margin:auto;
-    width: 60%
+    width: 60%;
 }
 .contact{
     text-align: left;
